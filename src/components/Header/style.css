@@ -1,0 +1,22 @@
+.contentHeader {
+  width: 100%;
+  background-image: url('../../assets/photo-1542435503-956c469947f6.jpeg');
+  background-size: cover;
+  height: 500px;
+  margin: 0;
+  padding: 20px;
+  flex: 1;
+}
+
+.imgLogo {
+  width: 50px;
+  height: 50px;
+}
+
+.bodyHeader {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+}
