@@ -30,6 +30,7 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .textNotif {
@@ -44,5 +45,16 @@
   }
   .textNotif {
     width: 100%;
+  }
+  .contentNotif {
+    flex-direction: column;
+    height: 100px;
+  }
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .height {
+    height: 100px;
   }
 }
