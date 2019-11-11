@@ -1,6 +1,7 @@
 import React from 'react';
-import NotifPanel from './components/NotifPanel/index';
 import Header from './components/Header';
+import Hightlight from './components/Highlight';
+import NotifPanel from './components/NotifPanel';
 import './index.css';
 
 class App extends React.Component {
@@ -9,6 +10,7 @@ class App extends React.Component {
       <div>
         <NotifPanel />
         <Header />
+        <Hightlight />
       </div>
     );
   };
