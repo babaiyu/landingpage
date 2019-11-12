@@ -40,11 +40,12 @@
   font-size: 25px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
   .section {
     display: block;
-    width: auto;
+    width: 100%;
     height: auto;
+    transform: translateX(50%);
   }
   .contentHighlight {
     align-items: center;
