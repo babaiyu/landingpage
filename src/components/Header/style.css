@@ -1,6 +1,7 @@
 .contentHeader {
   width: auto;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/photo-1542435503-956c469947f6.jpeg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 74, 117, 0.75)),
+    url("../../assets/hero.jpg");
   background-size: cover;
   height: 800px;
   background-position: center;
@@ -28,19 +29,19 @@
 
 .btnHeader {
   border-width: 3;
-  border-color: #FFF;
+  border-color: #fff;
   outline: 0;
   display: inline-block;
   padding: 15px 25px;
   color: black;
   background-color: rgba(0, 0, 0, 0);
-  color: #FFF;
+  color: #fff;
   text-align: center;
   cursor: pointer;
 }
 
 .btnHeader:hover {
-  background-color: #FFF;
+  background-color: #fff;
   color: deepskyblue;
   transition: 0.5s;
 }
