@@ -4,6 +4,7 @@ import Hightlight from './components/Highlight';
 import NotifPanel from './components/NotifPanel';
 import './index.css';
 import Footer from './components/Footer';
+import Newsletter from './components/Newsletter';
 
 class App extends React.Component {
   render() {
@@ -13,6 +14,7 @@ class App extends React.Component {
         <Header />
         <Hightlight />
         <Footer />
+        <Newsletter />
       </div>
     );
   };
