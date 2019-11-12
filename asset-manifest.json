@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/landingpage/static/css/main.b5d76007.chunk.css",
+    "main.css": "/landingpage/static/css/main.888a6372.chunk.css",
     "main.js": "/landingpage/static/js/main.72f6fb7a.chunk.js",
     "main.js.map": "/landingpage/static/js/main.72f6fb7a.chunk.js.map",
     "runtime-main.js": "/landingpage/static/js/runtime-main.936e4a70.js",
@@ -9,10 +9,10 @@
     "static/js/2.247a272d.chunk.js": "/landingpage/static/js/2.247a272d.chunk.js",
     "static/js/2.247a272d.chunk.js.map": "/landingpage/static/js/2.247a272d.chunk.js.map",
     "index.html": "/landingpage/index.html",
-    "precache-manifest.114e03347329df42ba9bc90e77cbbf6e.js": "/landingpage/precache-manifest.114e03347329df42ba9bc90e77cbbf6e.js",
+    "precache-manifest.176fdc13699c5ffa927be1b9e550e66b.js": "/landingpage/precache-manifest.176fdc13699c5ffa927be1b9e550e66b.js",
     "service-worker.js": "/landingpage/service-worker.js",
     "static/css/2.17308ad0.chunk.css.map": "/landingpage/static/css/2.17308ad0.chunk.css.map",
-    "static/css/main.b5d76007.chunk.css.map": "/landingpage/static/css/main.b5d76007.chunk.css.map",
+    "static/css/main.888a6372.chunk.css.map": "/landingpage/static/css/main.888a6372.chunk.css.map",
     "static/media/font-awesome.min.css": "/landingpage/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/style.css": "/landingpage/static/media/hero.abd78d1c.jpg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.936e4a70.js",
     "static/css/2.17308ad0.chunk.css",
     "static/js/2.247a272d.chunk.js",
-    "static/css/main.b5d76007.chunk.css",
+    "static/css/main.888a6372.chunk.css",
     "static/js/main.72f6fb7a.chunk.js"
   ]
 }
