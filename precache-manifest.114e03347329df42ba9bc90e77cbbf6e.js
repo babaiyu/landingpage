@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a094abb76e5c6d032aca2894628ee40",
+    "revision": "be67134afeb62f0ab155023988686f79",
     "url": "/landingpage/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landingpage/static/css/2.17308ad0.chunk.css"
   },
   {
-    "revision": "3e85e342dcc7e296ce89",
-    "url": "/landingpage/static/css/main.ba599562.chunk.css"
+    "revision": "cfbd556c219aa2532e1b",
+    "url": "/landingpage/static/css/main.b5d76007.chunk.css"
   },
   {
     "revision": "cb964868b4a2c0ccb1c1",
     "url": "/landingpage/static/js/2.247a272d.chunk.js"
   },
   {
-    "revision": "3e85e342dcc7e296ce89",
+    "revision": "cfbd556c219aa2532e1b",
     "url": "/landingpage/static/js/main.72f6fb7a.chunk.js"
   },
   {
@@ -44,7 +44,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/landingpage/static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
-    "revision": "89f61e0d559171033e78a55396c47e4a",
-    "url": "/landingpage/static/media/photo-1542435503-956c469947f6.89f61e0d.jpeg"
+    "revision": "abd78d1c783f2aa2245ac7dae2ea7a51",
+    "url": "/landingpage/static/media/hero.abd78d1c.jpg"
   }
 ]);
