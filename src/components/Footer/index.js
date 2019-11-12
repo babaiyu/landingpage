@@ -4,7 +4,7 @@ import './style.css'
 const Footer = () => {
   return (
     <div className="footer">
-      <small>&copy;2018 Bayu Permana. All rights reserved</small>
+      <small>&copy;2019 Bayu Permana. All rights reserved</small>
     </div>
   );
 };

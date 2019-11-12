@@ -16,6 +16,7 @@
 
 .height {
   height: 75px;
+  position: relative;
 }
 
 .btnNotif {
@@ -37,6 +38,10 @@
   width: 50%;
 }
 
+.textBlue {
+  color: #007bc1;
+}
+
 @media only screen and (max-width:720px) {
   /* For tablets: */
   .textNotif {
@@ -48,13 +53,21 @@
   }
   .contentNotif {
     flex-direction: column;
-    height: 100px;
+    height: auto;
+    align-items: flex-start;
+    width: auto;
+    padding: 10px;
   }
   .container {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .height {
     height: 100px;
+  }
+
+  .btnNotif {
+    margin-left: 0;
+    margin-top: 10px;
   }
 }

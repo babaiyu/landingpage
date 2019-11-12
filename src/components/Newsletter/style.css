@@ -31,8 +31,28 @@
   border: none;
 }
 
+.formNews {
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
 @media only screen and (max-width: 640px) {
   .newsletter {
     width: 92.5%;
+  }
+
+  .formNews {
+    display: inline-block;
+  }
+
+  .inputNews {
+    width: 100%;
+  }
+
+  .btnNews {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    margin-top: 10px;
   }
 }
