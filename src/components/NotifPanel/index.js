@@ -10,6 +10,10 @@ const vert_align = {
 
 const NotifPanel = () => {
   const [value, onGotIt] = React.useState(true);
+  const handleSubmit = () => {
+    localStorage.setItem('notif', false);
+    onGotIt(false)
+  }
   return (
       <Animated isVisible={value} animationIn="fadeInDown" animationOut="fadeOutUp" className="contentNotif" >
         <div className='contentNotif container' style={vert_align} fixed='top'>
@@ -19,7 +23,7 @@ const NotifPanel = () => {
   understand our <b className="textBlue">Cookie Policy, Privacy Policy,</b> and our <b className="textBlue">Terms of Service</b>.
             </small>
           </div>
-          <button type="button" className="btnNotif" onClick={() => onGotIt(false)}>Got It</button>
+          <button type="button" className="btnNotif" onClick={handleSubmit}>Got It</button>
         </div>
         <Animated isVisible={value} animationIn="fadeInDown" animationOut="fadeOutUp">
           <div className="height" />

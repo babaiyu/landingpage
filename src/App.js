@@ -7,6 +7,9 @@ import './index.css';
 import Footer from './components/Footer';
 import Newsletter from './components/Newsletter';
 
+const notifData = localStorage.getItem('notif');
+const newsData = localStorage.getItem('news');
+
 class App extends React.Component {
   constructor(props) {
     super(props)
@@ -32,13 +35,19 @@ class App extends React.Component {
     const { showNews } = this.state;
     return (
       <div>
-        <NotifPanel />
+        {
+          notifData === null
+            ? <NotifPanel />
+            : null
+        }
         <Header />
         <Hightlight />
         <Footer />
         {
           showNews
-            ? <Newsletter />
+            ? newsData === null
+              ? <Newsletter />
+              : null
             : null
         }
       </div>
