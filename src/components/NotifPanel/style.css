@@ -55,8 +55,9 @@
     flex-direction: column;
     height: auto;
     align-items: flex-start;
-    width: auto;
+    width: 95%;
     padding: 10px;
+    margin-left: -10px;
   }
   .container {
     padding-left: 20px;
@@ -64,6 +65,7 @@
   }
   .height {
     height: 100px;
+    margin: 0;
   }
 
   .btnNotif {
