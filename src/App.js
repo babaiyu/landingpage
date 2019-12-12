@@ -32,6 +32,7 @@ class App extends React.Component {
   }
 
   render() {
+    alert('Hello World');
     const { showNews } = this.state;
     return (
       <div>
